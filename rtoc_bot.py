@@ -68,7 +68,8 @@ def smart_roast(user, name):
         return f"{name} exists… aggressively average."
 
 # ================== LORE ==================
-lore = [
+# ================== LORE LIST ==================
+LORE_LIST = [
     "The world does not reward kindness. Only strength.",
     "You were not chosen. You survived.",
     "Every death refines you.",
