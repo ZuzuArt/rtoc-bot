@@ -197,8 +197,10 @@ async def reincarnate(ctx):
 
 @bot.command()
 async def lore(ctx):
-    embed = discord.Embed(title="Lore Fragment",
-                          description=random.choice(lore))
+    embed = discord.Embed(
+        title="Lore Fragment",
+        description=random.choice(LORE_LIST)
+    )
     embed.set_image(url=IMG_LORE)
 
     await ctx.send(embed=embed)
